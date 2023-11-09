@@ -23,16 +23,8 @@ export default function HostNoticeItem({noticeItem} : Props){
 
   //           event handler: 공지사항 리스트 변경 이벤트 처리          //
   const onNoticeChangeHandler = (event: ChangeEvent<HTMLTextAreaElement>) => {
-
-    if(!setShowNoticelist) return;    
     const comment = event.target.value;
     setNotice(comment);
-
-    // description: textarea 내용이 바뀔때마다 높이 변경 //
-    if (!textareaRef.current) return;
-    textareaRef.current.focus();
-    textareaRef.current.style.height = 'auto';
-    textareaRef.current.style.height = `${textareaRef.current.scrollHeight}px`;
   };
 
   //           event handler: 댓글 수정 버튼 클릭 이벤트 처리          //
@@ -43,6 +35,14 @@ export default function HostNoticeItem({noticeItem} : Props){
   const onDeleteCommentsButtonClickHandler = () => {
     alert('삭제');
   };
+
+  //          effect: textarea의 높이를 동적으로 조절          //
+  useEffect(() => {
+    if (textareaRef.current) {
+      textareaRef.current.style.height = 'auto';
+      textareaRef.current.style.height = `${textareaRef.current.scrollHeight}px`; // 스크롤 높이로 설정
+    }
+  }, [notice]);
 
   //          render: 공지사항 리스트 아이템 컴포넌트 렌더링          //  
   return (
@@ -64,6 +64,7 @@ export default function HostNoticeItem({noticeItem} : Props){
                   rows={1}
                   value={notice}
                   onChange={onNoticeChangeHandler}
+                  ref={textareaRef}
                   readOnly
               />
           )}

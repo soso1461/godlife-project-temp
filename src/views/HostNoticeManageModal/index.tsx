@@ -5,8 +5,8 @@ import React, { useState, forwardRef, ButtonHTMLAttributes, MouseEvent, ChangeEv
 import HostNoticeItem from 'components/HostNoticeItem';
 import Scrollbars from 'react-custom-scrollbars-2';
 
-// 공지사항 페이지
-export default function NoticeManageModal() {
+//          component: 방장 공지사항 관리 페이지          //
+export default function HostNoticeManageModal() {
     const [contents, setContents] = useState('');
     const [showButton, setShowButton] = useState(false);
 
@@ -34,7 +34,7 @@ export default function NoticeManageModal() {
         setContents('');
     };
 
-    // render : 공지사항 페이지 렌더링 //
+    //          render : 공지사항 페이지 렌더링          //
     return (
         <div id='notice-wrapper'>
             <div className='notice-card'>

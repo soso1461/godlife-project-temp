@@ -13,6 +13,7 @@
 
 .notice-list-item-top {
     width: 732px;
+    margin-top: 10px;
 
     display: flex;
     flex-direction: row;

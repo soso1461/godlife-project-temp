@@ -11,7 +11,8 @@ import './components/Dropdown1Category/style.css';
 import HostNoticeItem from 'components/HostNoticeItem';
 import { StudyNoticeMock } from 'mocks';
 import { StudyNoticeListItem } from 'types';
-import NoticeManageModal from 'views/NoticeManageModal';
+import HostNoticeItemNoticeManageModal from 'views/HostNoticeManageModal';
+import NoticeModal from 'views/NoticeModal';
 
 interface Props {
   noticeItem: StudyNoticeListItem;
@@ -23,7 +24,8 @@ function App() {
     <div>
       {/* <MyPage /> */}
       {/* <StudyCreate /> */}
-      <NoticeManageModal />
+      <HostNoticeItemNoticeManageModal />
+      {/* <NoticeModal /> */}
     </div>
   );
 }

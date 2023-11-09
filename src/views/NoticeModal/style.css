@@ -1,0 +1,195 @@
+#notice-wrapper {
+    font-family: Spoqa Han Sans Neo;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notice-card {
+    width: 900px;
+    height: 870px;
+
+    border-radius: 15px;
+    border: 3px solid rgba(24, 160, 251, 1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(232, 241, 255, 1);
+    border-radius: 30px;
+}
+
+.notice-button-box {
+    width: 52px;
+    height: 40px;
+
+    margin: 15px 25px 15px 823px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notice-button-box:hover {
+    cursor: pointer;
+}
+
+.btn :hover {
+    cursor: pointer;
+}
+
+.btn-primary {
+    width: 52px;
+    height: 40px;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+}
+
+.notice-title-box {
+    width: 177px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    border: 3px solid rgba(24, 160, 251, 1);
+    background-color: rgba(24, 160, 251, 0.70);
+
+    margin-bottom: 60px;
+}
+
+.notice-title {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+    text-wrap: nowrap;
+}
+
+.notice-write-box {
+
+    width: 845px;
+    height: 50px;
+    margin: 0px 10px 15px 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.notice-write-name {
+    width: 108px;
+    height: 50px;
+    color: #000;
+
+    text-align: center;
+    font-family: Spoqa Han Sans Neo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.3px;
+
+    display: flex;
+    align-items: center;
+}
+
+.notice-write-input-box {
+    width: 672px;
+    height: 50px;
+
+    padding-left: 16px;
+    padding-right: 20px;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+
+    -ms-overflow-style: none;
+    border: none;
+    resize: none;
+}
+
+.notice-write-input {
+    width: 636px;
+    height: 25px;
+    
+    color: rgba(0, 0, 0, 1);
+
+    font-family: 'Spoqa Han Sans Neo';
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+
+    border: none;
+    resize: none;
+    overflow: hidden;
+}
+
+.notice-write-input:focus {
+    outline: 0;
+}
+
+.notice-write-plus-box {
+    width: 80px;
+    height: 50px;
+
+    margin-left: 5px;
+
+    border-radius: 10px;
+    border: 3px solid rgba(24, 160, 251, 0.50);
+
+    background: rgba(255, 255, 255, 1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-family: Spoqa Han Sans Neo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.3px;
+}
+
+.notice-write-plus-box:hover {
+    cursor: pointer;
+}
+
+
+.notice-common-content-box {
+    width: 770px;
+    height: 570px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(255, 255, 255, 1);
+
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+.notice-common-contents-left-box {
+    width: 755px;
+    height: 570px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgba(255, 255, 255, 1);
+}

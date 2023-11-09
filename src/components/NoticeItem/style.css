@@ -1,95 +1,60 @@
-.notice-list-item-box{
+.notice-list-item-box {
+    margin-top: 5px;
+    padding-left: 5px;
+
     width: 732px;
-    height: auto;
 
     display: flex;
     align-items: center;
     flex-direction: column;
-    
-    margin-top: 5px;
+
+    font-family: 'Spoqa Han Sans Neo';
 }
 
-.notice-list-item-top{
+.notice-list-item-top {
     width: 732px;
-    height: auto;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-.notice-list-item-icon-box{
+
+.notice-list-item-icon-box {
     width: 20px;
     height: 20px;
     align-items: center;
 }
 
-.notice-list-item-icon{
+.notice-list-item-icon {
     width: 100%;
     height: 100%;
 
     border-radius: 50% 50%;
 
-    background-image: url(assets/check-button-icon.png);    
+    background-image: url(assets/check-button-icon.png);
     background-position: 50% 50%;
     background-size: 100% 100%;
 }
 
-.notice-list-item-contents{
-    margin-left: 10px;
-    align-items: center;
-    width: 573px;
-    padding-right: 10px;
+.notice-common-list-item-contents {
+    margin-left: 15px;
 
-    color: rgba(0, 0, 0, 1);
-    font-family: 'Spoqa Han Sans Neo';
+    width: 100%;
+    min-width: 550px;
+
+    border: none;
+    outline: none;
+
     font-size: 20px;
     font-weight: 400;
     letter-spacing: -0.18px;
-    /* text-align: center; */
+
+    resize: none;
+    overflow: hidden;
 }
 
-.notice-write-edit-icon-box{
-    width: 122px;
-    height: 40px;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-    gap: 2px;
-}
-
-.notice-write-edit-box{
-    width: 60px;
-    height: 40px;
-    border-radius: 10px;
-    border: 3px solid rgba(24,160,251,0.5);
-    background-color: rgba(255, 255, 255, 1);
-}
-
-.notice-write-edit-box:hover{
-    cursor: pointer;
-    background-color: rgba(30, 11, 255, 1);
-}
-
-.notice-write-delete-box{
-    width: 60px;
-    height: 40px;
-    border-radius: 10px;
-    border: 3px solid rgba(24,160,251,0.5);
-    background-color: rgba(255, 255, 255, 1);
-}
-
-.notice-write-delete-box:hover{
-    cursor: pointer;
-    background-color: rgba(30, 11, 255, 1);
-}
-
-.notice-list-item-bottom{
-    width: 731px;
-    height: 1px;
-
-    background-color: rgba(24, 160, 251, 1);
-}
-
-.notice-list-item-bottom-line{
+.notice-list-item-bottom-line {
     width: 731px;
     height: 1px;
 

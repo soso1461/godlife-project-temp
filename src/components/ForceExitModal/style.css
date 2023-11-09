@@ -55,7 +55,7 @@
     width: 40px;
     height: 40px;
 
-    background-image: url(../../assets/warning-icon.png);
+    background-image: url(assets/warning-icon.png);
     background-position: 50% 50%;
     background-size: 100% 100%;
 }

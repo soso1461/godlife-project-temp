@@ -1,0 +1,105 @@
+#study-room-exit-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Spoqa Han Sans Neo';
+}
+
+.study-room-exit-card {
+    width: 600px;
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px 10px;
+    border: 4px solid rgba(24, 160, 251, 1);
+    background-color: rgba(232, 241, 255, 1);
+}
+
+.study-room-exit-index-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.study-room-exit-title {
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.study-room-exit-description-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.warning-icon {
+    width: 40px;
+    height: 40px;
+
+    background-image: url(assets/warning-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.study-room-exit-text {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.study-room-button-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 40px;
+}
+
+.study-room-exit-button-box {
+    width: 140px;
+    height: 60px;
+
+    color: rgba(255, 0, 0, 1);
+    font-size: 25px;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px 10px;
+    border: 3px solid rgba(251, 24, 24, 0.5);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.study-room-exit-button-box:hover {
+    cursor: pointer;
+    background-color: rgba(251, 24, 24, 0.3);
+}
+
+.study-room-cancel-button-box {
+    width: 140px;
+    height: 60px;
+
+    font-size: 25px;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px 10px;
+    border: 3px solid rgba(217, 217, 217, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.study-room-cancel-button-box:hover {
+    cursor: pointer;
+    background-color: rgba(217, 217, 217, 0.7);
+}

@@ -1,0 +1,95 @@
+.todo-list-item-box{
+    width: 732px;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    margin-top: 5px;
+}
+
+.todo-list-item-top{
+    width: 732px;
+    height: auto;
+}
+.todo-list-item-icon-box{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+}
+
+.todo-list-item-icon{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50% 50%;
+
+    background-image: url(assets/check-button-icon.png);    
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.todo-list-item-contents{
+    margin-left: 10px;
+    align-items: center;
+    width: 573px;
+    padding-right: 10px;
+
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Spoqa Han Sans Neo';
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.18px;
+    /* text-align: center; */
+}
+
+.todo-write-edit-icon-box{
+    width: 122px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2px;
+}
+
+.todo-write-edit-box{
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid rgba(24,160,251,0.5);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.todo-write-edit-box:hover{
+    cursor: pointer;
+}
+
+.todo-write-delete-box{
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid rgba(24,160,251,0.5);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.todo-write-delete-box:hover{
+    cursor: pointer;
+}
+
+.todo-list-item-bottom{
+    width: 731px;
+    height: 1px;
+
+    background-color: rgba(24, 160, 251, 1);
+}
+
+.todo-list-item-bottom-line{
+    width: 731px;
+    height: 1px;
+
+    background-color: rgba(24, 160, 251, 1);
+}

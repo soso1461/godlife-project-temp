@@ -1,0 +1,59 @@
+/* Inputbox */
+.auth-middle{
+  width: 400px;
+  height: 50px;
+
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 1);  
+  background-color: rgba(204, 204, 204,1);
+
+  margin-top:px;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.inputbox-conatainer{
+  width: 100%;
+  height: 100%;
+
+  color: rgba(0, 0, 0, 0.7);
+  /* font-size: ; */
+
+  display: flex;
+  align-items: center;
+  
+}
+
+/* input */
+.inputbox{
+  width: 213px;
+  height: 22px;
+
+  margin: 10px 137px 10px 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+
+/*icon-button*/
+.icon-box{
+  width: 30px;
+  height: 30px;
+  margin: 10px 10px 10px 0px;
+}
+
+
+
+  
+  
+
+
+
+

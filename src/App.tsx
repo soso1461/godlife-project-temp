@@ -8,15 +8,22 @@ import MyPage from 'views/MyPage';
 import './views/MyPage/style.css';
 import StudyCreate from 'views/StudyCreate';
 import './components/Dropdown1Category/style.css';
-import StudyRoomExitModal from 'components/StudyRoomExitModal';
+import HostNoticeItem from 'components/HostNoticeItem';
+import { StudyNoticeMock } from 'mocks';
+import { StudyNoticeListItem } from 'types';
+import NoticeManageModal from 'views/NoticeManageModal';
+
+interface Props {
+  noticeItem: StudyNoticeListItem;
+}
 
 function App() {
 
   return (
     <div>
-      {/* <MyPage />
-      <StudyCreate /> */}
-      <StudyRoomExitModal />
+      {/* <MyPage /> */}
+      {/* <StudyCreate /> */}
+      <NoticeManageModal />
     </div>
   );
 }

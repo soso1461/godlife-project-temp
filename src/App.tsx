@@ -13,6 +13,8 @@ import { StudyNoticeMock } from 'mocks';
 import { StudyNoticeListItem } from 'types';
 import HostNoticeItemNoticeManageModal from 'views/HostNoticeManageModal';
 import NoticeModal from 'views/NoticeModal';
+import HostToDoListManageModal from 'views/HostToDoListManageModal';
+import ToDoList from 'views/ToDoListModal';
 
 interface Props {
   noticeItem: StudyNoticeListItem;
@@ -24,8 +26,10 @@ function App() {
     <div>
       {/* <MyPage /> */}
       {/* <StudyCreate /> */}
-      <HostNoticeItemNoticeManageModal />
+      {/* <HostNoticeItemNoticeManageModal /> */}
       {/* <NoticeModal /> */}
+      <HostToDoListManageModal />
+      <ToDoList />
     </div>
   );
 }

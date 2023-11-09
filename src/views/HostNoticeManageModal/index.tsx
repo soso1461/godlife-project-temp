@@ -1,7 +1,7 @@
 import { StudyNoticeMock } from 'mocks';
 import './style.css';
 
-import React, { useState, forwardRef, ButtonHTMLAttributes, MouseEvent, ChangeEvent, useRef } from 'react';
+import React, { useState, forwardRef, MouseEvent, ChangeEvent, useRef } from 'react';
 import HostNoticeItem from 'components/HostNoticeItem';
 import Scrollbars from 'react-custom-scrollbars-2';
 

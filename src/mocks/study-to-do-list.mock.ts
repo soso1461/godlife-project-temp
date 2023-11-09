@@ -61,6 +61,30 @@ const StudyToDoListMock : StudyTodoListItem[] = [
         studyNumber : 1,
         studyListContents : "클라우드 자격증",
         studyListCheck : true
+    },
+    {
+        studyListNumber :11,
+        studyNumber : 1,
+        studyListContents : "클라우드 자격증인데요",
+        studyListCheck : true
+    },
+    {
+        studyListNumber :12,
+        studyNumber : 1,
+        studyListContents : "클라우드 자격증아닌데요",
+        studyListCheck : true
+    },
+    {
+        studyListNumber :13,
+        studyNumber : 1,
+        studyListContents : "클라우드 맞는데요",
+        studyListCheck : true
+    },
+    {
+        studyListNumber :14,
+        studyNumber : 1,
+        studyListContents : "클라우드 일까요",
+        studyListCheck : true
     }
 
 ]

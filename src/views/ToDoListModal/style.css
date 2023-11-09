@@ -1,0 +1,25 @@
+.todo-common-content-box {
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+    width: 770px;
+    height: 570px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(255, 255, 255, 1);
+
+    border-radius: 10px;
+}
+
+.todo-common-contents-left-box {
+    width: 755px;
+    height: 570px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgba(255, 255, 255, 1);
+}

@@ -12,13 +12,11 @@ export default function HostNoticeItem({noticeItem} : Props){
 
   //          state: Properties          //
   const {studyNumber, studyNoticeNumber,studyNoticeContents} = noticeItem;
-  //          state: 공지사항 리스트 박스 상태         //
-  const [showNoticelist, setShowNoticelist] = useState<boolean>(false); 
   //          state: 공지사항 리스트 textarea 참조 상태          //
   const textareaRef = useRef<HTMLTextAreaElement | null>(null);
   //          state: 공지사항 리스트 상태              //
   const [notice, setNotice] = useState<string>(studyNoticeContents);
-  //          state: 공지사항 텍스트 박스 수정 상태          //
+  //          state: 공지사항 textarea 수정 상태          //
   const [textareaEdit, setTextareaEdit] = useState<boolean>(false);
 
   //           event handler: 공지사항 리스트 변경 이벤트 처리          //
@@ -31,12 +29,12 @@ export default function HostNoticeItem({noticeItem} : Props){
   const onEditCommentsButtonClickHandler = () => {
     setTextareaEdit(!textareaEdit);
   };
-  //           event handler: 댓글 수정 버튼 클릭 이벤트 처리          //
+  //           event handler: 댓글 삭제 버튼 클릭 이벤트 처리          //
   const onDeleteCommentsButtonClickHandler = () => {
     alert('삭제');
   };
 
-  //          effect: textarea의 높이를 동적으로 조절          //
+  //          effect: 공지사항 textarea의 높이를 동적으로 조절          //
   useEffect(() => {
     if (textareaRef.current) {
       textareaRef.current.style.height = 'auto';
@@ -54,6 +52,7 @@ export default function HostNoticeItem({noticeItem} : Props){
         {textareaEdit ? ( // 수정 모드일때
               <textarea
                   className={`notice-list-item-contents ${textareaEdit ? 'editing' : ''}`}
+                  rows={1}
                   value={notice}
                   onChange={onNoticeChangeHandler}
                   ref={textareaRef}

@@ -5,10 +5,10 @@ import React, { useState, forwardRef, ButtonHTMLAttributes, MouseEvent, ChangeEv
 import Scrollbars from 'react-custom-scrollbars-2';
 import NoticeItem from 'components/NoticeItem';
 
-//          component: 방장 공지사항 관리 페이지          //
+//          component: 일반 유저 공지사항 페이지          //
 export default function NoticeModal() {
 
-    //          render : 공지사항 페이지 렌더링          //
+    //          render : 일반 유저 공지사항 페이지 렌더링          //
     return (
         <div id='notice-wrapper'>
             <div className='notice-card'>

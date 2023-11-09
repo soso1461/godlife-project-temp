@@ -17,7 +17,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    
+    position: relative;
 }
 
 .notice-list-item-icon-box {
@@ -38,7 +39,7 @@
 }
 
 .notice-list-item-contents {
-    margin-left: 10px;
+    margin-left: 15px;
 
     min-width: 550px;
 
@@ -59,13 +60,16 @@
 }
 
 .notice-write-edit-icon-box {
+    padding-top: 3px;
     width: 122px;
     height: 40px;
 
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
 
     font-size: 20px;
     font-weight: 400;

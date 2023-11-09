@@ -35,13 +35,6 @@ export default function HostNoticeItem({noticeItem} : Props){
     textareaRef.current.style.height = `${textareaRef.current.scrollHeight}px`;
   };
 
-  useEffect(() => {
-      if (textareaRef.current) {
-          textareaRef.current.style.height = 'auto';
-          textareaRef.current.style.height = `${textareaRef.current.scrollHeight}px`;
-      }
-    }, [notice]);
-
   //           event handler: 댓글 수정 버튼 클릭 이벤트 처리          //
   const onEditCommentsButtonClickHandler = () => {
     setTextareaEdit(!textareaEdit);
@@ -74,7 +67,7 @@ export default function HostNoticeItem({noticeItem} : Props){
                   readOnly
               />
           )}
-        <div className='notice-write-edit-icon-box'>  
+        <div className='notice-write-edit-icon-box'>
             <button
                 className={`notice-write-edit-box ${textareaEdit ? 'editing' : ''}`}
                 onClick={onEditCommentsButtonClickHandler}>

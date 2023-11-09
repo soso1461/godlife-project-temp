@@ -34,16 +34,6 @@ export default function NoticeManageModal() {
         setContents('');
     };
 
-    //          event handler: 공지사항 수정 이벤트 처리          //
-    const onContentsChangeHandler = (event: ChangeEvent<HTMLTextAreaElement>) => {
-        const contents = event.target.value;
-        setContents(contents);
-        if (!contentsTextAreaRef.current) return;
-        contentsTextAreaRef.current.focus();
-        contentsTextAreaRef.current.style.height = 'auto';
-        contentsTextAreaRef.current.style.height = `${contentsTextAreaRef.current.scrollHeight}px`;
-    };
-
     // render : 공지사항 페이지 렌더링 //
     return (
         <div id='notice-wrapper'>

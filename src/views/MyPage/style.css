@@ -1,0 +1,594 @@
+#my-page-top {
+    padding-top: 80px;
+    padding-left: 35px;
+
+    min-width: 1440px;
+
+    font-family: 'Spoqa Han Sans Neo';
+
+    background-color: rgba(232, 241, 255, 1);
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 27px;
+}
+
+.user-info-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info-title {
+    font-size: 45px;
+    font-weight: 500;
+
+    padding-bottom: 25px;
+}
+
+.info-detail-box {
+    width: 800px;
+    height: 530px;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid rgba(24, 160, 251, 1);
+    border-radius: 15px;
+
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.info-detail-box-top {
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+}
+
+.user-profile-box {
+    padding-left: 30px;
+    padding-top: 30px;
+
+    gap: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-profile-image {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50% 50%;
+
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.user-profile-default-image {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50% 50%;
+
+    background-image: url(assets/default-user-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.user-profile-image-change-box {
+    width: 110px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    background-color: rgba(24, 160, 251, 0.7);
+}
+
+.user-profile-image-change-box:hover {
+    cursor: pointer;
+    background-color: rgba(24, 160, 251, 1);
+}
+
+.user-profile-image-change-box-text {
+    color: rgba(255, 255, 255, 1);
+
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.user-basic-info-box {
+    padding-top: 35px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+}
+
+.user-nickname-box {
+    display: flex;
+    gap: 15px;
+}
+
+.user-info-nickname-input {
+    border: none;
+    outline: none;
+    background: none;
+
+    display: inline-block;
+
+    color: rgba(0, 0, 0, 0.5);
+
+    font-family: 'Spoqa Han Sans Neo';
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.error-message {
+    color: rgba(255, 0, 0, 1);
+
+    margin: 20px 0px 0px 40px;
+
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.user-nickname-text {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.user-nickname-icon {
+    border-radius: 50% 50%;
+
+    width: 35px;
+    height: 35px;
+
+    background-image: url(./assets/edit-button-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.user-nickname-icon:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.user-email {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.password-modify-box {
+    width: 230px;
+    height: 50px;
+
+    border-radius: 10px;
+    background-color: rgba(24, 160, 251, 0.7);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: rgba(255, 255, 255, 1);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.password-modify-box:hover {
+    cursor: pointer;
+    background-color: rgba(24, 160, 251, 1);
+}
+
+.user-category-box {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.user-category-title {
+    padding-top: 30px;
+    padding-left: 43px;
+
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.user-category-list-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user-category-1 {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 20px;
+    font-weight: 400;
+
+    gap: 10px;
+}
+
+.user-category-1-box {
+    width: 185px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 10px;
+    border: 3px solid rgba(24, 160, 251, 1);
+}
+
+.user-category-1-box-title {
+    padding-left: 25px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.user-category-icon-box {
+    padding-left: auto;
+    padding-right: 10px;
+}
+
+.user-category-icon {
+    width: 25px;
+    height: 25px;
+
+    background-image: url(assets/arrow-down-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.user-category-2 {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 20px;
+    font-weight: 400;
+
+    gap: 10px;
+}
+
+.user-category-2-box {
+    width: 185px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 10px;
+    border: 3px solid rgba(24, 160, 251, 1);
+}
+
+.user-category-2-box-title {
+    padding-left: 25px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    color: rgba(207, 207, 207, 1);
+}
+
+.user-category-3 {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 20px;
+    font-weight: 400;
+
+    gap: 10px;
+}
+
+.user-category-3-box {
+    width: 185px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 10px;
+    border: 3px solid rgba(24, 160, 251, 1);
+}
+
+.user-category-3-box-title {
+    padding-left: 25px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    color: rgba(207, 207, 207, 1);
+}
+
+.user-grade-box {
+    margin-top: 81px;
+
+    width: 550px;
+    height: 530px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    border-radius: 15px;
+    border: 2px solid rgba(24, 160, 251, 1);
+
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.user-grade-icon-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-grade-icon {
+    width: 100px;
+    height: 100px;
+
+    background-image: url(./assets/sprout-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.user-grade-icon-text {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.user-grade-standard {
+    padding-left: 40px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.user-grade-leaf-box {
+    display: flex;
+    flex-direction: row;
+
+    gap: 25px;
+}
+
+.user-leaf-icon {
+    width: 40px;
+    height: 40px;
+
+    background-image: url(assets/leaf-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.user-leaf-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.user-grade-weeds-box {
+    display: flex;
+    flex-direction: row;
+
+    gap: 25px;
+}
+
+.user-weeds-icon {
+    width: 40px;
+    height: 40px;
+
+    background-image: url(assets/weeds-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.user-weeds-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.user-grade-tree-box {
+    display: flex;
+    flex-direction: row;
+
+    gap: 25px;
+}
+
+.user-tree-icon {
+    width: 40px;
+    height: 40px;
+
+    background-image: url(assets/tree-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.user-tree-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.user-check-grade-standard {
+    display: flex;
+    justify-content: center;
+}
+
+.user-grade-standard-box {
+    width: 380px;
+    height: 50px;
+
+    border-radius: 10px;
+    background-color: rgba(24, 160, 251, 0.7);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-grade-standard-box:hover {
+    cursor: pointer;
+    background-color: rgba(24, 160, 251, 1);
+}
+
+.user-grade-standard-box-text {
+    color: rgba(255, 255, 255, 1);
+
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* ! --------------------------- 여기까지 MyPageTop ------------------------------ */
+
+#my-page-bottom {
+    padding: 50px 0px 150px 35px;
+    min-width: 1440px;
+
+    font-family: 'Spoqa Han Sans Neo';
+
+    background-color: rgba(232, 241, 255, 1);
+}
+
+.user-activity-histroy-box {
+    display: flex;
+    justify-content: center;
+}
+
+.user-activity-box {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.user-activity-histroy-title {
+    font-size: 45px;
+    font-weight: 500;
+
+    padding-bottom: 25px;
+}
+
+.user-activity-box {
+    padding-top: 30px;
+
+    width: 1377px;
+    height: 100%;
+
+    border-radius: 15px;
+    border: 2px solid rgba(24, 160, 251, 1);
+}
+
+.user-join-study-title {
+    padding-left: 50px;
+
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.join-study-box {
+    padding: 50px 30px 0px 30px;
+}
+
+.join-study-box-titles {
+    display: grid;
+    padding: 0px 10px 10px 10px;
+    grid-template-columns: 2fr 1fr 1fr 1fr 0.7fr 0.5fr 0.5fr 0.5fr;
+    place-items: center;
+    gap: 10px;
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.join-study-list-box {
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-weight: 500;
+
+    height: 140px;
+
+    max-height: 140px;
+
+    padding: 20px 10px 20px 10px;
+
+    border-radius: 10px;
+    border: 2px solid rgba(24, 160, 251, 0.7);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+.user-joined-study-box {
+    padding-top: 105px;
+}
+
+.user-joined-study-title {
+    padding-left: 50px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.joined-study-box {
+    padding: 50px 30px 0px 30px;
+}
+
+.joined-study-box-titles {
+    display: grid;
+
+
+    padding: 0px 10px 10px 10px;
+    grid-template-columns: 1.5fr 1fr 1fr 0.7fr 0.7fr 0.5fr 0.5fr 0.5fr;
+    place-items: center;
+    gap: 10px;
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.joined-study-list-box {
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+
+    height: 250px;
+    max-height: 250px;
+
+    padding: 20px 10px 20px 10px;
+
+    border-radius: 10px;
+    border: 2px solid rgba(24, 160, 251, 0.7);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.track-vertical {
+    top: 2px;
+    bottom: 2px;
+    right: 8px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.111);
+}
+
+.track-vertical .thumb-vertical {
+    padding: 0 8px 0 0;
+    position: relative;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: inherit;
+    background-color: rgba(24, 160, 251, 1);
+}

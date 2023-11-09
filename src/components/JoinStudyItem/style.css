@@ -1,0 +1,103 @@
+.study-list-box {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 0.7fr 0.5fr 0.5fr 0.5fr;
+    place-items: center;
+    gap: 10px;
+    grid-template-rows: repeat(1, 40px);
+}
+
+.study-title-box {
+    width: 100%;
+    height: 27px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    background-color: rgba(24, 160, 251, 0.7);
+}
+
+.study-category-box {
+    width: 100%;
+    height: 27px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    background-color: rgba(24, 160, 251, 0.7);
+}
+
+.study-authority-box {
+    width: 100%;
+    height: 27px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    background-color: rgba(24, 160, 251, 0.7);
+}
+
+.study-progress-box {
+    width: 100%;
+    height: 27px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    background-color: rgba(24, 160, 251, 0.7);
+}
+
+.study-total-day-box {
+    width: 100%;
+    height: 27px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    background-color: rgba(24, 160, 251, 0.7);
+}
+
+.study-join-day-box {
+    width: 100%;
+    height: 27px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    background-color: rgba(24, 160, 251, 0.7);
+}
+
+.study-absent-day-box {
+    width: 100%;
+    height: 27px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    background-color: rgba(24, 160, 251, 0.7);
+}
+
+.study-late-day-box {
+    width: 100%;
+    height: 27px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    background-color: rgba(24, 160, 251, 0.7);
+}

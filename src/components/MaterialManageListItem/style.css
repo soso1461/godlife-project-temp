@@ -1,0 +1,98 @@
+.material-manage-list-index-box {
+    display: grid;
+    grid-template-columns: 1fr 5fr 18fr 9fr 9fr;
+    place-items: center;
+    grid-template-rows: repeat(1, 40px);
+    gap: 15px;
+    
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Spoqa Han Sans Neo';
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.material-manage-check-box {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid rgba(217, 217, 217, 1);
+}
+
+.material-manage-check-box:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.material-manage-check-icon {
+    width: 100%;
+    height: 100%;
+
+    background-image: url(assets/check-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.material-manage-serial-number-box {
+    width: 100%;
+    height: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px 10px;
+    border: 1px solid rgba(217, 217, 217, 1);
+}
+
+
+.material-name-box {
+    width: 100%;
+    height: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px 10px;
+    border: 1px solid rgba(217, 217, 217, 1);
+
+    /* description: 박스 크기를 넘어가면 알아서 줄여줌 */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.material-name-index {
+    /* description: 박스 크기를 넘어가면 알아서 줄여줌 */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.material-upload-date-box {
+    width: 100%;
+    height: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px 10px;
+    border: 1px solid rgba(217, 217, 217, 1);
+}
+
+.material-write-user-box {
+    width: 100%;
+    height: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 10px 10px;
+    border: 1px solid rgba(217, 217, 217, 1);
+}

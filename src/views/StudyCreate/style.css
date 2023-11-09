@@ -1,0 +1,442 @@
+#study-create {
+    min-width: 1440px;
+    min-height: 1700px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Spoqa Han Sans Neo';
+
+    background-color: rgba(232, 241, 255, 1);
+}
+
+.study-create-background {
+    display: flex;
+    flex-direction: column;
+}
+
+.study-create-title {
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.study-create-main-box {
+    width: 1200px;
+
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.study-create-index-box {
+    display: flex;
+    flex-direction: column;
+    padding: 52px 0px 0px 60px;
+    gap: 70px;
+}
+
+.study-title-input-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 130px;
+}
+
+.study-title-input-text {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input {
+    font-family: 'Spoqa Han Sans Neo';
+    padding-left: 17px;
+    width: 765px;
+    height: 61px;
+
+    border-radius: 5px;
+    border: 1px solid rgba(207, 207, 207, 1);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.input::placeholder {
+    color: rgba(207, 207, 207, 1);
+}
+
+#char-count {
+    color: rgba(0, 0, 0, 1);
+    padding-right: 15px;
+    position: absolute;
+    top: 25%;
+    right: 0;
+    font-size: 25px;
+}
+
+.study-period {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 130px;
+}
+
+.study-period-text {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* .study-period-set-box {
+    width: 35%;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 5px;
+    border: 1px solid rgba(207, 207, 207, 1);
+} */
+
+/* .study-period-set-text {
+    padding-left: 17px;
+    color: rgba(207, 207, 207, 1);
+
+    font-size: 25px;
+    font-weight: 400;
+} */
+
+.icon-box {
+    padding-right: 15px;
+
+    width: 35px;
+    height: 35px;
+
+    display: flex;
+}
+
+.study-people-set {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+}
+
+.study-people-set-text {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* .study-people-set-box {
+    width: 40%;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 5px;
+    border: 1px solid rgba(207, 207, 207, 1);
+} */
+
+/* .study-people-set-box-text {
+    padding-left: 17px;
+    color: rgba(207, 207, 207, 1);
+
+    font-size: 25px;
+    font-weight: 400;
+} */
+
+/* .down-arrow-icon {
+    width: 100%;
+    height: 100%;
+
+    background-image: url(assets/down-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+} */
+
+.study-category {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 76px;
+}
+
+.join-study-category-text {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* .study-category-set-box {
+    width: 40%;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 5px;
+    border: 1px solid rgba(207, 207, 207, 1);
+} */
+
+/* .study-category-set-box-text {
+    padding-left: 17px;
+    color: rgba(207, 207, 207, 1);
+
+    font-size: 25px;
+    font-weight: 400;
+} */
+
+.study-materials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 76px;
+}
+
+.study-materials-text {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.study-materials-set-box {
+    width: 45%;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 5px;
+    border: 1px solid rgba(207, 207, 207, 1);
+}
+
+.study-materials-set-box-text {
+    padding-left: 17px;
+    color: rgba(207, 207, 207, 1);
+
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.file-upload-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 30% 30%;
+    margin-right: 10px;
+
+    background-image: url(assets/file-upload-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.file-upload-icon:hover {
+    cursor: pointer;
+    background-color: rgba(200, 200, 200, 0.7);
+}
+
+.study-disclosure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 76px;
+}
+
+.study-disclosure-text {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.study-disclosure-box {
+    display: flex;
+    flex-direction: row;
+
+    font-size: 25px;
+    font-weight: 400px;
+
+    gap: 30px;
+}
+
+
+.study-disclosure-public-box {
+    width: 205px;
+    height: 61px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    border: 1px solid rgba(207, 207, 207, 1);
+}
+
+.study-disclosure-public-box:hover {
+    cursor: pointer;
+}
+
+.study-disclosure-public-box.selected {
+    background-color: rgba(175, 225, 255, 1);
+    font-weight: 600;
+}
+
+.study-disclosure-private-box {
+    width: 205px;
+    height: 61px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    border: 1px solid rgba(207, 207, 207, 1);
+}
+
+.study-disclosure-private-box:hover {
+    cursor: pointer;
+}
+
+.study-disclosure-private-box.selected {
+    background-color: rgba(175, 225, 255, 1);
+    font-weight: 600;
+}
+
+.private-code-box {
+    display: flex;
+    position: relative;
+    align-items: end;
+    margin-left: -15px;
+}
+
+.private-code-input {
+    font-family: 'Spoqa Han Sans Neo';
+    padding-left: 10px;
+
+    width: 250px;
+    height: 40px;
+    border-radius: 10px 10px;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.copy-icon {
+    width: 35px;
+    height: 35px;
+
+    position: absolute;
+    transform: translateY(-10%);
+    right: 0;
+    margin-right: 5px;
+
+    border-radius: 10px 10px;
+    
+    background-image: url(assets/copy-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.copy-icon:hover {
+    cursor: pointer;
+    background-color: rgba(200, 200, 200, 0.7);
+}
+
+.study-cover-image {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 57px;
+}
+
+.study-cover-image-text {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.study-cover-image-box {
+    width: 300px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    border-radius: 10px;
+    background-color: rgba(229, 229, 229, 1);
+}
+
+.study-cover-image-change {
+    width: 300px;
+    height: 200px;
+
+    border-radius: 10px 10px;
+
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.study-cover-image-icon {
+    width: 75px;
+    height: 75px;
+
+    background-image: url(assets/image-plus-button-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.study-cover-image-upload-icon {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0px 5px 5px 0px;
+
+    border-radius: 10% 10%;
+
+    background-image: url(assets/image-upload-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.study-cover-image-upload-icon:hover {
+    cursor: pointer;
+    background-color: rgba(200, 200, 200, 0.7);
+}
+
+.study-create-button {
+    padding: 200px 0px 140px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.study-create-button-box {
+    width: 850px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    background-color: rgba(59, 72, 204, 1);
+}
+
+.study-create-button-box:hover {
+    cursor: pointer;
+    background-color: rgba(59, 72, 204, 0.7);
+}
+
+.study-create-button-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.error-message {
+    position: absolute;
+    padding-top: 5px;
+}

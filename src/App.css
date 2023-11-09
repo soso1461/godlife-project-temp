@@ -1,0 +1,109 @@
+/* .background-default-color {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba(232, 241, 255, 1);
+} */
+
+.icon-button {
+    border-radius: 50% 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.icon-button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* .logo-icon {
+    width: 358px;
+    height: 80px;
+    
+    background-image: url(assets/logo-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.eye-off-icon {
+    width: 30px;
+    height: 30px;
+  
+    background-image: url(assets/eye-off-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.eye-on-icon {
+    width: 30px;
+    height: 30px;
+  
+    background-image: url(assets/eye-on-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.email-update-icon {
+    width: 30px;
+    height: 30px;
+  
+    background-image: url(assets/email-update-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.google-logo {
+    width: 128px;
+    height: 48px;
+
+    background-image: url(assets/google-logo.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.kakao-logo {
+    width: 114px;
+    height: 35px;
+
+    background-image: url(assets/kakao-logo.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.naver-logo {
+    width: 115px;
+    height: 45px;
+
+    background-image: url(assets/naver-logo.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.main-login-error-icon {
+    width: 53px;
+    height: 41px;
+
+    background-image: url(assets/main-login-error-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.login-error-icon {
+    width: 46px;
+    height: 46px;
+
+    background-image: url(assets/login-error-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.email-logo {
+    width: 195px;
+    height: 195px;
+
+    background-image: url(assets/email-logo.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+} */

@@ -1,0 +1,105 @@
+.dropdown-study-people-set-box {
+    font-family: 'Spoqa Han Sans Neo';
+    font-size: 25px;
+  
+    width: 40%;
+    height: 60px;
+  
+    display: flex;
+    flex-direction: row;
+  
+    border-radius: 5px;
+    border: 1px solid rgba(207, 207, 207, 1);
+  }
+  
+  .dropdown-study-people-set-box:hover {
+    cursor: pointer;
+    background-color: rgba(24, 160, 251, 0.7);
+  }
+  
+  .dropdown-study-people-set-header {
+    color: rgba(207, 207, 207, 1);
+  
+    margin-bottom: 2px;
+    padding-left: 17px;
+    
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+  
+    font-weight: 400;
+  }
+  
+  .down-icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 15px;
+  }
+  
+  .down-icon {
+    width: 35px;
+    height: 35px;
+  
+    background-image: url(assets/down-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+  }
+  
+  
+  .dropdown-study-people-set-header.selected {
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 1);
+  }
+  
+  .dropdown-study-people-set-list {
+    margin-top: 60px;
+    padding: 5px 5px 5px 5px;
+    width: 445px;
+    height: 230px;
+    
+    position: absolute;
+  
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
+  
+  }
+  
+  .dropdown-study-people-set-list-index {
+    width: 100%;
+    height: 43px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    font-weight: 400;
+  
+    border-radius: 5px;
+  }
+  
+  .dropdown-study-people-set-list-index:hover {
+    cursor: pointer;
+    background-color: rgba(24, 160, 251, 0.7);
+  }
+
+  .track-people-set-vertical {
+    top: 2px;
+    bottom: 2px;
+    right: 7px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.111);
+  }
+  
+  .track-people-set-vertical .thumb-people-set-vertical {
+    padding: 0 7px 0 0;
+    position: relative;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: inherit;
+    background-color: rgba(0, 0, 0, 1);
+  }

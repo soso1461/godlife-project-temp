@@ -1,0 +1,73 @@
+.datepicker-box {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.react-datepicker-popper {
+    margin-left: 30px;
+}
+
+.react-datepicker__month-container {
+    font-family: 'Spoqa Han Sans Neo';
+    font-size: 18px;
+}
+
+.react-datepicker__day{
+    border-radius: 50% 50%;
+}
+
+.react-datepicker__header {
+    width: 300px;
+    background-color: rgba(175, 225, 255, 0.3);
+}
+
+.start-date {
+    width: 370px;
+    height: 61px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    border-radius: 5px 5px;
+    border: 1px solid rgba(207, 207, 207, 1);
+
+    font-family: 'Spoqa Han Sans Neo';
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.start-date::placeholder {
+    color: rgba(207, 207, 207, 1);
+}
+
+.start-date:hover {
+    cursor: pointer;
+    background-color: rgba(24, 160, 251, 0.7);
+}
+
+.end-date {
+    width: 370px;
+    height: 61px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    border-radius: 5px 5px;
+    border: 1px solid rgba(207, 207, 207, 1);
+
+    font-family: 'Spoqa Han Sans Neo';
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.end-date::placeholder {
+    color: rgba(207, 207, 207, 1);
+}
+
+.end-date:hover {
+    cursor: pointer;
+    background-color: rgba(24, 160, 251, 0.7)
+}

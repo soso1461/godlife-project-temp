@@ -15,6 +15,7 @@ import HostNoticeItemNoticeManageModal from 'views/HostNoticeManageModal';
 import NoticeModal from 'views/NoticeModal';
 import HostToDoListManageModal from 'views/HostToDoListManageModal';
 import ToDoList from 'views/ToDoListModal';
+import StudyDate from 'views/StudyDateModal';
 
 interface Props {
   noticeItem: StudyNoticeListItem;
@@ -28,8 +29,9 @@ function App() {
       {/* <StudyCreate /> */}
       {/* <HostNoticeItemNoticeManageModal /> */}
       {/* <NoticeModal /> */}
-      <HostToDoListManageModal />
-      <ToDoList />
+      {/* <HostToDoListManageModal /> */}
+      {/* <ToDoList /> */}
+      <StudyDate />
     </div>
   );
 }

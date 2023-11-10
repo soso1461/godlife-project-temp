@@ -1,0 +1,519 @@
+#notice-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notice-card {
+    width: 900px;
+    height: 870px;
+
+    border-radius: 15px;
+    border: 3px solid rgba(24, 160, 251, 1);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgba(232, 241, 255, 1);
+    border-radius: 30px;
+
+    position: relative;
+}
+
+.notice-button-box {
+    width: 52px;
+    height: 40px;
+
+    margin: 15px 25px 37px 823px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notice-button-box:hover {
+    cursor: pointer;
+}
+
+.btn :hover {
+    cursor: pointer;
+}
+
+.btn-primary {
+    width: 52px;
+    height: 40px;
+}
+
+.btn-primary :hover {
+    cursor: pointer;
+}
+
+.room-box {
+    width: 849px;
+    height: 655px;
+
+    display: flex;
+
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 121px;
+
+    border-radius: 8px;
+}
+
+.room-name {
+
+    width: 195px;
+    height: 25px;
+
+    margin: 16px 633px 27px 21px;
+
+    color: rgba(0, 0, 0, 1);
+    font-family: Spoqa Han Sans Neo;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: -0.364px;
+}
+
+.room-schedule {
+    height: 18.5px;
+    margin: 0px auto 2.5px 21px;
+
+
+    color: rgba(0, 0, 0, 1);
+    font-family: Spoqa Han Sans Neo;
+    font-size: 13.6px;
+    font-weight: 400;
+    letter-spacing: -0.204px;
+}
+
+.room-date-set-box {
+    width: 800px;
+    height: 280px;
+
+    margin: 0px 26.8px 40px 21px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.room-date-control {
+    width: 417px;
+    height: 280px;
+}
+
+.room-date-contents {
+    width: 383px;
+    height: 280px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    padding-top: 20px;
+}
+
+.next-study-date {
+    width: 106px;
+    height: 19px;
+
+    margin: 0px 293.07px 0px 9.23px;
+    text-wrap: nowrap;
+    font-family: Spoqa Han Sans Neo;
+    font-size: 13.6px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    letter-spacing: -0.204px;
+}
+
+/* 스터디 시간 */
+.study-date-box {
+    margin: 8px 26.2px 3px 14px;
+
+    width: 370px;
+    height: 60px;
+
+    background-color: rgba(24, 160, 251, 0.5);
+
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.63px;
+}
+
+.dropdown-study-time-set-box {
+    font-family: 'Spoqa Han Sans Neo';
+    font-size: 18px;
+
+    width: 37px;
+    height: 24px;
+
+    display: flex;
+    flex-direction: row;
+
+    line-height: 115%;
+    font-weight: 400;
+
+    border: 1px solid rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.dropdown-study-time-set-box:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 251, 0.7);
+}
+
+.dropdown-study-time-set-header {
+    color: rgba(207, 207, 207, 1);
+
+    /* margin-bottom: 2px; */
+    padding-left: 17px;
+
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+
+    font-weight: 400;
+}
+
+.down-icon-box {
+    width: 10px;
+    height: 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(255, 255, 255, 1);
+    /* height: 10px; */
+}
+
+.down-icon {
+    width: 10px;
+    height: 5px;
+
+    background-image: url(assets/arrow-down.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+
+.dropdown-study-time-set-header.selected {
+    display: flex;
+    justify-content: center;
+    /* color: rgba(0, 0, 0, 1); */
+}
+
+.dropdown-study-time-set-list {
+    margin-top: 24px;
+    /* margin-left: -15px; */
+    /* padding: 5px 5px 5px 5px; */
+    width: 52px;
+    height: 159px;
+
+    position: absolute;
+
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+.dropdown-study-time-set-list-index {
+    width: 100%;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 400;
+
+    border-radius: 5px;
+}
+
+.dropdown-study-time-set-list-index:hover {
+    cursor: pointer;
+    background-color: rgba(24, 160, 251, 0.7);
+}
+
+.track-time-set-vertical {
+    top: 2px;
+    bottom: 2px;
+    right: 2px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.111);
+}
+
+.thumb-time-set-vertical {
+    padding: 0 5px 0 0;
+    position: relative;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: inherit;
+    background-color: rgba(24,160,251,1);
+}
+
+/* 스터디 경고 메시지 컴포넌트 */
+.study-date-contents-box {
+
+    width: 370px;
+    height: 60px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 8px;
+    padding: 13.5px 37px 13.5px 36px;
+
+}
+
+.study-date-contents-icon {
+    width: 33px;
+    height: 33px;
+
+    display: flex;
+    align-items: center;
+
+    background-image: url(assets/warning-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.study-date-contents-message {
+    margin-right: auto;
+    text-wrap: nowrap;
+
+    width: 255px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(255, 255, 255, 1);
+
+    font-family: Spoqa Han Sans Neo;
+    font-size: 13.6px;
+}
+
+.study-date-contents-error-message {
+    margin-right: auto;
+    text-wrap: nowrap;
+
+    width: 255px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(255, 0, 0, 1);
+
+    font-family: Spoqa Han Sans Neo;
+    font-size: 13.6px;
+}
+
+/* 시간 설정  컴포넌트 */
+.study-box-wrapper {
+    width: 89px;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+}
+
+.study-hour-select-box {
+    width: 37px;
+    border: 1px solid rgba(0, 0, 0, 1);
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+.study-hour-select {
+    width: 27px;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.study-hour-icon-box {
+    width: 10px;
+    height: 100%;
+
+    display: flex;
+
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.study-hour-icon-box:hover {
+    cursor: pointer;
+}
+
+.study-hour-icon {
+    width: 10px;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/arrow-down.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.study-minute-select-box {
+    width: 37px;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 1);
+
+    display: flex;
+    flex-direction: row;
+}
+
+.study-minute-select {
+    width: 23px;
+    height: 100%;
+}
+
+.study-minute-icon-box {
+    width: 12px;
+    height: 100%;
+
+    display: flex;
+
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.study-minute-icon-box:hover {
+    cursor: pointer;
+}
+
+.study-minute-icon {
+    width: 10px;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/arrow-down.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+
+
+/* 캘린더 설정 컴포넌트 */
+.study-date-set-box {
+    width: 318px;
+    height: 50px;
+
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 9px;
+}
+
+.study-date-schedule {
+    width: auto;
+    height: 17px;
+
+    color: rgba(0, 0, 0, 1);
+
+    font-family: Spoqa Han Sans Neo;
+    font-size: 13.599px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.204px;
+}
+
+.study-date-hour-box {
+    width: auto;
+    height: 24px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.study-date-hour-title {
+    width: auto;
+    height: 16px;
+
+    margin-right: 8px;
+
+    color: rgba(0, 0, 0, 1);
+    font-family: Spoqa Han Sans Neo;
+    font-size: 13.599px;
+    font-weight: 400;
+    letter-spacing: -0.204px;
+}
+
+.division {
+    width: 15px;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.between {
+    width: 64px;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* 스터디 일정 에러 메시지 */
+.study-hour-error {
+    width: auto;
+    height: 19px;
+
+    /* margin-right: 41px; */
+    margin-left: 123px;
+    color: rgba(255, 0, 0, 1);
+
+    font-family: Spoqa Han Sans Neo;
+    font-size: 15px;
+
+    font-weight: 500;
+
+    letter-spacing: -0.225px;
+}
+
+.insert-box {
+    margin-left: 25px;
+
+    width: 800px;
+    height: 67px;
+
+    border-radius: 8.086px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(24, 160, 251, 1);
+
+    color: rgba(255, 255, 255, 1);
+    font-family: Spoqa Han Sans Neo;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.323px;
+}
+
+.insert-box:hover {
+    cursor: pointer;
+}

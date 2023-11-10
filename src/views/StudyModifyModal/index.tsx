@@ -3,17 +3,17 @@ import './style.css';
 import DropDownFirstCategory from 'components/Dropdown1Category';
 
 import 'react-calendar/dist/Calendar.css';
-import moment from 'moment';
-import MyCalendar from 'components/DatePicker';
 import ModalSideMenu from 'components/ModalSideMenu';
 import 'react-datepicker/dist/react-datepicker.css';
-// import { studyMaterialMock} from 'mocks';
 import { useParams } from 'react-router-dom';
 import DatePickerModifyStudyComponent from 'components/DatePickerModifyStudy';
 import DropDownModifyStudyCategory from 'components/DropdownModifyStudyCategory';
 
+
+
 //          component : 스터디 방 재설정 모달 페이지          //
 export default function StudyModifyModal() {
+
     //          state : 스터디 방 번호          //
     const { studyNumber } = useParams();
     //          state : 스터디 제목 글자 갯수          //
@@ -206,8 +206,8 @@ export default function StudyModifyModal() {
                         <div className='study-count-minus-icon'></div>
                         {<div className='study-count-error-message'>{'방참여 인원보다 내려갈 수 없습니다. '}</div>}
                     </div>
-                    <div className='study-category-container'>
-                        <div className='study-category-title'>{'*스터디 카테고리'}</div>
+                    <div className='study-modify-category-container'>
+                        <div className='study-modify-category-title'>{'*스터디 카테고리'}</div>
                         <DropDownModifyStudyCategory />
                     </div>
                     <div className='study-open-container'>

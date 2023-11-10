@@ -275,11 +275,6 @@
 }
 
 .study-title {
-    width: 108px;
-    height: 25px;
-
-    color: rgba(0, 0, 0, 1);
-    font-family: Spoqa Han Sans Neo;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.31px;
@@ -391,9 +386,6 @@
 }
 
 .study-count-title {
-    width: 153px;
-    height: 25px;
-
     display: flex;
     align-items: center;
 
@@ -467,21 +459,13 @@
     line-height: 22px;
 }
 
-.study-category-container {
-    width: 315px;
-    height: 30px;
-
+.study-modify-category-container {
     display: flex;
     align-items: center;
     flex-direction: row;
 }
 
-.study-category-title {
-    width: 147px;
-    height: 30px;
-
-    color: rgba(0, 0, 0, 1);
-
+.study-modify-category-title {
     font-size: 20px;
     font-weight: 400;
     display: flex;
@@ -490,19 +474,6 @@
     margin-right: 17px;
 
     text-wrap: nowrap;
-}
-
-.study-category-box {
-    width: 151px;
-    height: 30px;
-
-    display: flex;
-    flex-direction: row;
-
-    border: 1px solid rgba(24, 160, 251, 1);
-
-    background-color: rgba(255, 255, 255, 1);
-    border-radius: 5px;
 }
 
 .study-category-contents {

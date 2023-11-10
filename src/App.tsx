@@ -16,6 +16,7 @@ import NoticeModal from 'views/NoticeModal';
 import HostToDoListManageModal from 'views/HostToDoListManageModal';
 import ToDoList from 'views/ToDoListModal';
 import StudyDate from 'views/StudyDateModal';
+import StudyModifyModal from 'views/StudyModifyModal';
 
 interface Props {
   noticeItem: StudyNoticeListItem;
@@ -31,7 +32,8 @@ function App() {
       {/* <NoticeModal /> */}
       {/* <HostToDoListManageModal /> */}
       {/* <ToDoList /> */}
-      <StudyDate />
+      {/* <StudyDate /> */}
+      <StudyModifyModal />
     </div>
   );
 }

@@ -1,0 +1,778 @@
+#reset-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Spoqa Han Sans Neo';
+}
+
+.reset-card {
+    width: 900px;
+    height: 870px;
+
+    border-radius: 15px;
+    border: 3px solid rgba(24, 160, 251, 1);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgba(232, 241, 255, 1);
+    border-radius: 30px;
+
+    position: relative;
+}
+
+.menu-sidebar {
+    top: 58px;
+    left: -172px;
+    position: absolute;
+
+    width: 170px;
+    height: 260px;
+}
+
+.menu-room {
+    width: 170px;
+    height: 65px;
+    border-radius: 30px 0px 0px 30px;
+    border-top: 3px solid rgba(24, 160, 251, 1);
+    border-bottom: 3px solid rgba(24, 160, 251, 1);
+    border-left: 3px solid rgba(24, 160, 251, 1);
+    background: rgba(24, 160, 251, 1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: rgba(0, 0, 0, 1);
+
+    text-align: center;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.345px;
+}
+
+.menu-room:hover {
+    cursor: pointer;
+}
+
+.menu-room-default {
+    width: 170px;
+    height: 65px;
+    border-radius: 30px 0px 0px 30px;
+    border-top: 3px solid rgba(24, 160, 251, 1);
+    border-bottom: 3px solid rgba(24, 160, 251, 1);
+    border-left: 3px solid rgba(24, 160, 251, 1);
+    background: rgba(255, 255, 255, 1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: rgba(0, 0, 0, 1);
+
+    text-align: center;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.345px;
+}
+
+.menu-room-default:hover {
+    cursor: pointer;
+}
+
+.menu-member {
+    width: 170px;
+    height: 65px;
+    border-radius: 30px 0px 0px 30px;
+    border-top: 3px solid rgba(24, 160, 251, 1);
+    border-bottom: 3px solid rgba(24, 160, 251, 1);
+    border-left: 3px solid rgba(24, 160, 251, 1);
+    background: rgba(24, 160, 251, 1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: rgba(0, 0, 0, 1);
+
+    text-align: center;
+    font-family: Spoqa Han Sans Neo;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.345px;
+}
+
+.menu-member-default {
+    width: 170px;
+    height: 65px;
+    border-radius: 30px 0px 0px 30px;
+    border-top: 3px solid rgba(24, 160, 251, 1);
+    border-bottom: 3px solid rgba(24, 160, 251, 1);
+    border-left: 3px solid rgba(24, 160, 251, 1);
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: rgba(0, 0, 0, 1);
+
+    text-align: center;
+    font-family: Spoqa Han Sans Neo;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.345px;
+}
+
+.menu-member-default:hover {
+    cursor: pointer;
+}
+
+.menu-study {
+    width: 170px;
+    height: 65px;
+    border-radius: 30px 0px 0px 30px;
+    border-top: 3px solid rgba(24, 160, 251, 1);
+    border-bottom: 3px solid rgba(24, 160, 251, 1);
+    border-left: 3px solid rgba(24, 160, 251, 1);
+    background-color: rgba(24, 160, 251, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: rgba(0, 0, 0, 1);
+
+    text-align: center;
+    font-family: Spoqa Han Sans Neo;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.345px;
+}
+
+.menu-study:hover {
+    cursor: pointer;
+}
+
+.menu-study-default {
+    width: 170px;
+    height: 65px;
+    border-radius: 30px 0px 0px 30px;
+    border-top: 3px solid rgba(24, 160, 251, 1);
+    border-bottom: 3px solid rgba(24, 160, 251, 1);
+    border-left: 3px solid rgba(24, 160, 251, 1);
+    background-color: rgba(255, 255, 255, 1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: rgba(0, 0, 0, 1);
+
+    text-align: center;
+    font-family: Spoqa Han Sans Neo;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.345px;
+
+    text-wrap: wrap;
+}
+
+.menu-study-default:hover {
+    cursor: pointer;
+}
+
+
+
+.menu-material:hover {
+    cursor: pointer;
+}
+
+.menu-material-default {
+    width: 170px;
+    height: 65px;
+    border-radius: 30px 0px 0px 30px;
+    border-top: 3px solid rgba(24, 160, 251, 1);
+    border-bottom: 3px solid rgba(24, 160, 251, 1);
+    border-left: 3px solid rgba(24, 160, 251, 1);
+    background-color: rgba(255, 255, 255, 1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: rgba(0, 0, 0, 1);
+
+    text-align: center;
+    font-family: Spoqa Han Sans Neo;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.345px;
+
+}
+
+.menu-material-default:hover {
+    cursor: pointer;
+}
+
+.reset-button-box {
+    width: 52px;
+    height: 40px;
+
+    margin: 15px 25px 18px 823px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset-button-box:hover {
+    cursor: pointer;
+}
+
+.btn :hover {
+    cursor: pointer;
+}
+
+.btn-primary {
+    width: 52px;
+    height: 40px;
+}
+
+.btn-primary :hover {
+    cursor: pointer;
+}
+
+.reset-control-box {
+    display: flex;
+    flex-direction: column;
+
+    gap: 35px;
+}
+
+.study-title-container {
+    height: 35px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    gap: 13px;
+}
+
+.study-title {
+    width: 108px;
+    height: 25px;
+
+    color: rgba(0, 0, 0, 1);
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.31px;
+
+    font-size: 20px;
+}
+
+.study-title-write-container {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+
+    border-radius: 5px;
+
+    font-family: 'Spoqa Han Sans Neo';
+}
+
+.study-title-write {
+    width: 490px;
+    height: 100%;
+
+    display: flex;
+
+    padding-left: 20px;
+
+    border-radius: 5px;
+    border: 1px solid rgba(24, 160, 251, 1);
+}
+
+.study-title-write::placeholder {
+    color: rgba(207, 207, 207, 1);
+}
+
+.study-title-write-count {
+    position: absolute;
+    padding-right: 15px;
+    top: 5%;
+    right: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.study-title-write-error-box {
+    margin-top: -35px;
+    margin-bottom: -10px;
+    margin-left: 123px;
+    width: auto;
+    height: 14px;
+
+    color: rgba(255, 0, 0, 0.70);
+}
+
+.study-title-write-error-message {
+    width: auto;
+    height: 14px;
+
+    color: rgba(255, 0, 0, 0.70);
+    font-family: Spoqa Han Sans Neo;
+    font-size: 12.24px;
+    font-weight: 700;
+    line-height: 140%;
+
+    text-wrap: nowrap;
+}
+
+.study-period-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 46px;
+    gap: 45px;
+}
+
+.study-period-title {
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.31px;
+
+    font-size: 20px;
+}
+
+.study-period-end-date-title-box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    gap: 10px;
+
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: -0.222px;
+}
+
+.study-count-setting {
+    width: auto;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.study-count-title {
+    width: 153px;
+    height: 25px;
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 1);
+
+    font-family: Spoqa Han Sans Neo;
+    font-size: 20px;
+    font-weight: 400;
+
+    letter-spacing: -0.31px;
+    margin-right: 15px;
+}
+
+.study-count-add-icon {
+    width: 30px;
+    height: 30px;
+
+    background-image: url(assets/plus-square-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+
+    margin-right: 5px;
+}
+
+.study-count-add-icon:hover {
+    cursor: pointer;
+}
+
+.study-count-contents {
+    width: 50px;
+    height: 30px;
+
+    color: rgba(0, 0, 0, 1);
+
+    font-size: 15px;
+    font-weight: 400;
+
+    letter-spacing: -0.22px;
+    margin-right: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-self: center;
+
+    padding-left: 19px;
+
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(24, 160, 251, 1);
+    border-radius: 5px;
+}
+
+.study-count-minus-icon {
+    width: 30px;
+    height: 30px;
+
+    background-image: url(assets/minus-square-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.study-count-minus-icon:hover {
+    cursor: pointer;
+}
+
+.study-count-error-message {
+    margin-left: 7px;
+    color: rgba(255, 0, 0, 0.70);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.study-category-container {
+    width: 315px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.study-category-title {
+    width: 147px;
+    height: 30px;
+
+    color: rgba(0, 0, 0, 1);
+
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-right: 17px;
+
+    text-wrap: nowrap;
+}
+
+.study-category-box {
+    width: 151px;
+    height: 30px;
+
+    display: flex;
+    flex-direction: row;
+
+    border: 1px solid rgba(24, 160, 251, 1);
+
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+}
+
+.study-category-contents {
+    width: 85px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 17px;
+    text-wrap: nowrap;
+}
+
+.study-category-icon {
+    width: 30px;
+    height: 30px;
+
+    background-image: url(assets/down-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+
+    margin-left: 19px;
+}
+
+.study-category-icon:hover {
+    cursor: pointer;
+}
+
+.study-open-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.study-open-title {
+    color: rgba(0, 0, 0, 1);
+
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+
+    margin-right: 31px;
+}
+
+.study-open {
+    width: 150px;
+    height: 30px;
+
+    border: none;
+    margin-right: 18px;
+
+    border-radius: 5px;
+    border: 0.5px solid rgba(24, 160, 251, 0.7);
+    background-color: rgba(255, 255, 255, 1);
+
+    color: rgba(0, 0, 0, 1);
+    font-family: Spoqa Han Sans Neo;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.225px;
+}
+
+.study-open-select {
+    width: 150px;
+    height: 30px;
+
+    border: none;
+    margin-right: 18px;
+
+    color: rgba(0, 0, 0, 1);
+    font-family: Spoqa Han Sans Neo;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.225px;
+
+    border-radius: 5px;
+    border: 0.5px solid rgba(24, 160, 251, 0.7);
+    background-color: rgba(24, 160, 251, 0.7);
+}
+
+.study-open-select:hover {
+    cursor: pointer;
+    background-color: rgba(207, 207, 207, 1);
+}
+
+.study-open:hover {
+    cursor: pointer;
+    background-color: rgba(207, 207, 207, 1);
+}
+
+.study-close-box {
+    border: none;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.study-close {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.5px solid rgba(24, 160, 251, 1);
+    background-color: rgba(255, 255, 255, 1);
+
+    color: rgba(0, 0, 0, 1);
+    font-family: Spoqa Han Sans Neo;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.225px;
+}
+
+.study-close:hover {
+    cursor: pointer;
+    background-color: rgba(207, 207, 207, 1);
+}
+
+.study-close-select {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.5px solid rgba(24, 160, 251, 1);
+    background-color: rgba(24, 160, 251, 0.7);
+
+    color: rgba(0, 0, 0, 1);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.225px;
+}
+
+.study-close-select:hover {
+    cursor: pointer;
+    background-color: rgba(207, 207, 207, 1);
+}
+
+.study-close-password {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.5px solid rgba(24, 160, 251, 1);
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+}
+
+.study-close-password-write {
+    width: 120px;
+    height: 20px;
+
+    border: none;
+    display: flex;
+    justify-content: center;
+
+    outline: none;
+}
+
+.password-icon {
+    width: 30px;
+    height: 30px;
+
+    background-image: url(assets/copy-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.password-icon:hover {
+    cursor: pointer;
+}
+
+.study-cover-image-box {
+    width: 347px;
+    height: 170px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.study-cover-image-title {
+    width: 170px;
+    height: 170px;
+
+    color: rgba(0, 0, 0, 1);
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.3px;
+
+    text-wrap: nowrap;
+}
+
+.study-cover-image-contents {
+    width: 170px;
+    height: 170px;
+
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    border: 0.5px solid rgba(24, 160, 251, 1);
+    position: relative;
+}
+
+.study-cover-profile-default-image {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.study-cover-profile-image {
+    width: 100%;
+    height: 100%;
+
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.change-controll {
+    position: absolute;
+
+    width: 48px;
+    height: 16px;
+    right: 3px;
+    bottom: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8.864px;
+    border: 0.5px solid rgba(24, 160, 251, 1);
+    background-color: rgba(255, 255, 255, 1);
+
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-family: 'Spoqa Han Sans Neo';
+    font-size: 8.7px;
+}
+
+.change-controll:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.study-reset-buttton-box {
+    margin-top: 160px;
+
+    width: 700px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    border: 2px solid rgba(24, 160, 251, 1);
+
+    background-color: rgba(255, 255, 255, 1);
+
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.study-reset-buttton-box:hover {
+    cursor: pointer;
+    background-color: rgba(24, 160, 251, 0.7);
+}

@@ -1,0 +1,106 @@
+.dropdown-modify-study-category-box {
+    font-family: 'Spoqa Han Sans Neo';
+  
+    width: 185px;
+    height: 35px;
+  
+    display: flex;
+    flex-direction: row;
+  
+    border-radius: 5px;
+    border: 1px solid rgba(24, 160, 251, 1);
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  .dropdown-modify-study-category-box:hover {
+    cursor: pointer;
+    background-color: rgba(24, 160, 251, 0.3);
+  }
+  
+  .dropdown-modify-study-category-header {
+    color: rgba(207, 207, 207, 1);
+  
+    margin-bottom: 2px;
+    padding-left: 25px;
+    
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .down-icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .down-icon {
+    width: 30px;
+    height: 30px;
+  
+    background-image: url(assets/down-icon.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+  }
+  
+  
+  .dropdown-modify-study-category-header.selected {
+    color: rgba(0, 0, 0, 1);
+  }
+  
+  .dropdown-modify-study-category-list {
+    margin-top: 40px;
+    padding: 5px 5px 5px 5px;
+    width: 205px;
+    height: 200px;
+    
+    position: absolute;
+  
+    font-size: 20px;
+
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
+  
+    z-index: 10;
+  }
+  
+  .dropdown-modify-study-category-list-index {
+    width: 100%;
+    height: 43px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    font-weight: 400;
+  
+    border-radius: 5px;
+  }
+  
+  .dropdown-modify-study-category-list-index:hover {
+    cursor: pointer;
+    background-color: rgba(232, 241, 255, 1);
+  }
+  
+  .track-category-vertical {
+    top: 2px;
+    bottom: 2px;
+    right: 7px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.111);
+  }
+  
+  .track-category-vertical .thumb-category-vertical {
+    padding: 0 7px 0 0;
+    position: relative;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: inherit;
+    background-color: rgba(24,160,251,1);
+  }

@@ -303,6 +303,8 @@
 
 .private-code-box {
     display: flex;
+    position: relative;
+    align-items: end;
     margin-left: -15px;
 }
 

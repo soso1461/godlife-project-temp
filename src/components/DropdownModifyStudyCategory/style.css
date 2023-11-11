@@ -18,8 +18,6 @@
   }
   
   .dropdown-modify-study-category-header {
-    color: rgba(207, 207, 207, 1);
-  
     margin-bottom: 2px;
     padding-left: 25px;
     
@@ -28,7 +26,7 @@
     align-items: center;
     justify-content: center;
   
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
   }
   
@@ -45,11 +43,6 @@
     background-image: url(assets/down-icon.png);
     background-position: 50% 50%;
     background-size: 100% 100%;
-  }
-  
-  
-  .dropdown-modify-study-category-header.selected {
-    color: rgba(0, 0, 0, 1);
   }
   
   .dropdown-modify-study-category-list {

@@ -8,7 +8,7 @@ export default interface StudyListItem {
     studyCategory2: string | null;
     studyCategory3: string | null;
     studyPublicCheck: boolean;
-    studyPrivatePassword: string;
+    studyPrivatePassword: string | null;
     studyCoverImageUrl: string | null;
     studyNextStartTime: string | null;
     studyNextEndTime: string | null;

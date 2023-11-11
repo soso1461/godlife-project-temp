@@ -2,12 +2,18 @@ import React, { useRef, useState, useEffect } from 'react';
 import './style.css';
 import Scrollbars from 'react-custom-scrollbars-2';
 
+//          interface: 방 재설정 카테고리 값 처리 Props          //
+interface DropDownModifyStudyCategoryProps  {
+    value: string;
+    onChange: (category: string) => void;
+  }
+
 //          component: 방 재설정 카테고리 컴포넌트          //
-const DropDownModifyStudyCategory = () => {
+const DropDownModifyStudyCategory = ({value, onChange}: DropDownModifyStudyCategoryProps) => {
     //          state: 박스 상태          //
     const [isOpen, setIsOpen] = useState(false);
     //          state: 박스 선택 상태          //
-    const [selectedItem, setSelectedItem] = useState<string | null>(null);
+    const [selectedItem, setSelectedItem] = useState<string | null>(value);
     //          state: 박스 드롭다운 ref 상태          //
     const dropdownRef = useRef<HTMLDivElement | null>(null);
 
@@ -19,6 +25,7 @@ const DropDownModifyStudyCategory = () => {
     //          function: 박스 항목 선택 호출 함수          //
     const selectItem = (item: string) => {
         setSelectedItem(item);
+        onChange(item);
         setIsOpen(false);
     };
 
@@ -41,8 +48,8 @@ const DropDownModifyStudyCategory = () => {
     //          render: DropDown 1관심 카테고리 렌더링          //
     return (
         <div ref={dropdownRef} className='dropdown-modify-study-category-box'>
-            <div className={`dropdown-modify-study-category-header ${selectedItem ? 'selected' : ''}`} onClick={toggleDropdown}>
-                {selectedItem ? selectedItem : '카테고리 선택'}
+            <div className='dropdown-modify-study-category-header' onClick={toggleDropdown}>
+                {selectedItem && <div className='selected-item'>{selectedItem}</div>}
             </div>
             <div className='down-icon-box'>
                 <div className='down-icon'></div>

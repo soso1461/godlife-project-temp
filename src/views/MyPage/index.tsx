@@ -183,6 +183,7 @@ export default function MyPage() {
 
     //      component: 마이페이지 하단 컴포넌트          //
     const MyPageBottom = () => {
+        
         //          render: 마이페이지 하단 렌더링              //
         return (
             <div id='my-page-bottom'>

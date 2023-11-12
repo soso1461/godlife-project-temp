@@ -50,6 +50,7 @@ export default function StudyModifyModal({ studyListItem }: Props) {
     const initialStudyData: StudyListItem | undefined = studyListMock.find(
         (study) => study.studyNumber === studyListItem.studyNumber
     );
+
     // const [studyNumber, setStudyNumber] = useState<number>(initialStudyData?.studyNumber || 0);
     const [studyTitle, setStudyTitle] = useState<string>(initialStudyData?.studyName || '');
     const [studyPersonNumber, setStudyPersonNumber] = useState<number>(initialStudyData?.studyPersonNumber || 0);

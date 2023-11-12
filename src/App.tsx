@@ -15,6 +15,7 @@ import HostToDoListManageModal from 'views/HostToDoListManageModal';
 import ToDoList from 'views/ToDoListModal';
 import StudyDate from 'views/StudyDateModal';
 import StudyModifyModal from 'views/StudyModifyModal';
+import ModalSideMenu from 'components/ModalSideMenu';
 
 interface Props {
   studyListItem: StudyListItem;
@@ -38,6 +39,7 @@ function App() {
       {/* <ToDoList /> */}
       {/* <StudyDate /> */}
        <StudyModifyModal studyListItem={studyItem} />
+       {/* <ModalSideMenu /> */}
     </div>
   );
 }

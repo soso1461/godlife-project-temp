@@ -47,8 +47,8 @@ const DropDownStudyPeopleSet = () => {
             <div className={`dropdown-study-people-set-header ${selectedItem ? 'selected' : ''}`} onClick={toggleDropdown}>
                 {selectedItem ? selectedItem : '스터디 참여 인원을 선택해주세요.'}
             </div>
-            <div className='down-icon-box'>
-                <div className='down-icon'></div>
+            <div className='dropdown-people-set-down-icon-box'>
+                <div className='dropdown-people-set-down-icon'></div>
             </div>
             {isOpen && (
                 <div className='dropdown-study-people-set-list'>

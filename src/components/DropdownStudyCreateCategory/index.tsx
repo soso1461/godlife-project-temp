@@ -53,8 +53,8 @@ const DropDownStudyCreateCategory = () => {
                 <div className={`dropdown-study-create-category-header`} onClick={toggleDropdown}>
                     {'스터디 카테고리를 선택해주세요.'}
                 </div>
-                <div className='down-icon-box'>
-                    <div className='down-icon'></div>
+                <div className='dropdown-study-create-down-icon-box'>
+                    <div className='dropdown-study-create-down-icon'></div>
                 </div>
                 {isOpen && (
                     <div className='dropdown-study-create-category-list'>

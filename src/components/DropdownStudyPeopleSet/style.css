@@ -31,14 +31,14 @@
     font-weight: 400;
   }
   
-  .down-icon-box {
+  .dropdown-people-set-down-icon-box {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-right: 15px;
   }
   
-  .down-icon {
+  .dropdown-people-set-down-icon {
     width: 35px;
     height: 35px;
   

@@ -39,6 +39,23 @@
   color: rgba(0, 0, 0, 1);
 }
 
+.dropdown-study-create-down-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+
+.dropdown-study-create-down-icon {
+  width: 40px;
+  height: 40px;
+
+  background-image: url(assets/down-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+
 .dropdown-study-create-category-list {
   margin-top: 60px;
   padding: 5px 5px 5px 5px;

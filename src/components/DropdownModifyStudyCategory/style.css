@@ -6,6 +6,7 @@
   
     display: flex;
     flex-direction: row;
+    align-items: center;
   
     border-radius: 5px;
     border: 1px solid rgba(24, 160, 251, 1);
@@ -30,13 +31,14 @@
     font-weight: 400;
   }
   
-  .down-icon-box {
+  .dropdown-modify-down-icon-box {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: none;
   }
   
-  .down-icon {
+  .dropdown-modify-down-icon {
     width: 30px;
     height: 30px;
   

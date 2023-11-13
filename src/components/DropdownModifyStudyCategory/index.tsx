@@ -51,8 +51,8 @@ const DropDownModifyStudyCategory = ({value, onChange}: DropDownModifyStudyCateg
             <div className='dropdown-modify-study-category-header' onClick={toggleDropdown}>
                 {selectedItem && <div className='selected-item'>{selectedItem}</div>}
             </div>
-            <div className='down-icon-box'>
-                <div className='down-icon'></div>
+            <div className='dropdown-modify-down-icon-box'>
+                <div className='dropdown-modify-down-icon'></div>
             </div>
             {isOpen && (
                 <div className='dropdown-modify-study-category-list'>

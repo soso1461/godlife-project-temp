@@ -12,7 +12,6 @@ export default function MemberManageModal({modalCloseHandler}: {modalCloseHandle
     interface Props {
         userGradeList: UserGradeList;
     }
-
     //           event handler: MyPage의 modalCloseHandler를 가져와서 이벤트 처리           //
     const closeModal = () => {
         modalCloseHandler();
